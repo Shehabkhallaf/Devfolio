@@ -1,0 +1,661 @@
+@font-face {
+    font-family: 'shehab';
+    src: url(fonts/Oswald-VariableFont_wght.ttf)
+}
+
+body {
+    font-family: '-apple-system';
+    font-weight: 400;
+    font-size: 16;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.877);
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.dropstart .dropdown-toggle::after {
+    display: inline-block;
+    margin-right: 0.255em;
+    vertical-align: middle;
+    content: "";
+    border-top: 0.3em solid transparent;
+    border-left: 0.3em solid;
+    border-bottom: 0.3em solid transparent;
+}
+
+.dropstart .dropdown-toggle::before {
+    border: 0;
+    margin: 0;
+}
+
+.header {
+    background-image: url(../images/intro-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    height: 100vh;
+}
+
+.layar {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.header-content {
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size: 75px;
+    font-weight: 900;
+    color: white;
+}
+
+.header-content h2::after {
+    content: "|";
+    animation-name: typing;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes typing {
+    0% {
+        content: "D |";
+    }
+    2% {
+        content: "De |";
+    }
+    4% {
+        content: "Dev |";
+    }
+    6% {
+        content: "Deve |";
+    }
+    8% {
+        content: "Devel |";
+    }
+    10% {
+        content: "Develo |";
+    }
+    12% {
+        content: "Develop |";
+    }
+    14% {
+        content: "Develope |";
+    }
+    16% {
+        content: "Developer |";
+    }
+    18% {
+        content: "Develope |";
+    }
+    19% {
+        content: "Develop |";
+    }
+    20% {
+        content: "Develo |";
+    }
+    21% {
+        content: "Devel |";
+    }
+    22% {
+        content: "Deve |";
+    }
+    23% {
+        content: "Dev |";
+    }
+    24% {
+        content: "De |";
+    }
+    25% {
+        content: "Des |";
+    }
+    26% {
+        content: "Des |";
+    }
+    27% {
+        content: "Desg |";
+    }
+    28% {
+        content: "Desgi |";
+    }
+    29% {
+        content: "Desgin |";
+    }
+    30% {
+        content: "Desgin |";
+    }
+    32% {
+        content: "Desgine |";
+    }
+    36% {
+        content: "Desginer |";
+    }
+    37% {
+        content: "Desgine |";
+    }
+    38% {
+        content: "Desgin |";
+    }
+    39% {
+        content: "Desgi |";
+    }
+    40% {
+        content: "Desg |";
+    }
+    41% {
+        content: "Des |";
+    }
+    42% {
+        content: "De |";
+    }
+    43% {
+        content: "D |";
+    }
+    44% {
+        content: " |";
+    }
+    45% {
+        content: "P |";
+    }
+    46% {
+        content: "Ph |";
+    }
+    48% {
+        content: "Pho |";
+    }
+    50% {
+        content: "Phot |";
+    }
+    51% {
+        content: "Photo |";
+    }
+    52% {
+        content: "Photog |";
+    }
+    54% {
+        content: "Photogr |";
+    }
+    55% {
+        content: "Photogra |";
+    }
+    57% {
+        content: "Photograp |";
+    }
+    59% {
+        content: "Photograph |";
+    }
+    58% {
+        content: "Photographe |";
+    }
+    60% {
+        content: "Photographer |";
+    }
+    61% {
+        content: "Photographe |";
+    }
+    62% {
+        content: "Photograph |";
+    }
+    63% {
+        content: "Photograp |";
+    }
+    64% {
+        content: "Photogra |";
+    }
+    65% {
+        content: "Photogr |";
+    }
+    66% {
+        content: "Photog |";
+    }
+    67% {
+        content: "Photo |";
+    }
+    68% {
+        content: "Phot |";
+    }
+    69% {
+        content: "Pho |";
+    }
+    70% {
+        content: "Ph |";
+    }
+    71% {
+        content: "P |";
+    }
+    72% {
+        content: " |";
+    }
+    74% {
+        content: "F |";
+    }
+    76% {
+        content: "Fr |";
+    }
+    77% {
+        content: "Fre |";
+    }
+    78% {
+        content: "Free |";
+    }
+    80% {
+        content: "Freel |";
+    }
+    82% {
+        content: "Freela |";
+    }
+    84% {
+        content: "Freelan |";
+    }
+    86% {
+        content: "Freelanc |";
+    }
+    88% {
+        content: "Freelance |";
+    }
+    90% {
+        content: "Freelancer |";
+    }
+    91% {
+        content: "Freelance |";
+    }
+    92% {
+        content: "Freelanc |";
+    }
+    93% {
+        content: "Freelan |";
+    }
+    94% {
+        content: "Freela |";
+    }
+    95% {
+        content: "Freel |";
+    }
+    96% {
+        content: "Free |";
+    }
+    97% {
+        content: "Fre |";
+    }
+    98% {
+        content: "Fr |";
+    }
+    99% {
+        content: "F |";
+    }
+    100% {
+        content: " |";
+    }
+}
+
+.skills p {
+    margin: .5rem 0;
+}
+
+.title-left {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.title-left::after {
+    content: "";
+    height: 5px;
+    background-color: #09c;
+    width: 25%;
+    position: absolute;
+    bottom: -.5rem;
+    left: 0;
+}
+.title-center {
+    position: relative;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}
+
+.title-center::after {
+    content: "";
+    height: 5px;
+    background-color: #09c;
+    width: 5%;
+    position: absolute;
+    bottom: -.5rem;
+    left: 50%;
+    transform:translateX(-50%) ;    
+}
+
+.services h2{
+    font-size: 50px ;
+    font-weight: bolder;
+}
+.fa-stack { font-size: 0.5em; }
+  i { vertical-align: middle; }
+.services-icons{
+      text-align: center;
+      margin: 2rem 0 ;
+  }
+.services-icons span{
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+    border: 10px solid #09c;
+    border-radius: 50%;
+    height: 7rem;
+    width: 7rem;
+    color: gray;
+    transition: all .8s ease-in-out;
+}
+.services-icons span:hover{
+    color: white;
+    background-color: #09c;
+    border-color: rgb(182, 230, 247);
+}
+.service{
+    box-shadow: 0px 0px 10px 1px rgb(216, 216, 216);
+    padding: 1rem 1rem ;
+    margin: 2rem 0rem;
+    border-radius: 1rem;
+}
+.service h2{
+    font-size: 25px;
+    font-weight:bolder;
+    text-align: center;
+}
+.service p{
+    text-align: center;
+    
+}
+.rates{
+    background-image: url(images/post-3.jpg);
+    background-size: cover;
+    background-position: center; 
+    margin: 3rem 0rem;
+    color: white;
+    background-color: white;
+    position: relative;
+    background-attachment: fixed;
+}
+.rates::after {
+    content: "";
+    background-color: rgba(24, 110, 150, 0.678);
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    top:0;
+    left: 0;
+}
+.rate{
+    text-align: center;
+    position: relative;
+    z-index: 99;
+    padding: 7rem 0rem;
+}
+.rate-icons span{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid rgb(164, 213, 230);
+    border-radius: 50%;
+    height: 6rem;
+    width: 6rem;
+    color: white;   
+    margin-bottom: .5rem;
+}
+
+.content-center {
+    position: relative;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}
+
+.content-center::after {
+    content: "";
+    height: 5px;
+    background-color: #09c;
+    width: 5%;
+    position: absolute;
+    bottom: -.5rem;
+    left: 50%;
+    transform:translateX(-50%) ;    
+}
+.portfolio h2{
+    font-weight: bolder;
+}
+.section{
+    margin-bottom: 3rem;
+    box-shadow: 1px 1px 9px 0px rgb(202, 202, 202);
+    border-radius: 10px;
+    
+}
+.portfolio img{
+    width: 100%;
+    transition: transform .8s;
+    overflow: hidden;
+}
+.sectio-photo{
+    overflow: hidden
+}
+
+.sectio-photo img:hover{
+    transform: scale(1.5);
+}
+.portfolio p{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.portfolio span{
+    color: rgb(38, 178, 202);
+}
+.portfolio-icons span{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgb(15, 167, 218);
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    color: rgb(38, 178, 202);   
+    position: absolute;
+    bottom: 40%;
+    right:5%;
+}
+.section-content{
+    position: relative;
+    padding: 1rem;
+}
+.profile{
+    background-image: url(images/post-3.jpg);
+    background-size: cover;
+    background-position: center; 
+    margin: 3rem 0rem;
+    color: white;
+    background-color: white;
+    position: relative;
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+}
+.profile-photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-photo img{
+    border-radius: 50%;
+}
+.blogs{
+    margin-top: 3rem;
+}
+.blog{
+    box-shadow: 1px 1px 8px 3px #ddd;
+    margin-bottom: 2rem;
+}
+.blog-photo{
+    position: relative;
+    
+}
+.blog-photo-botton{
+    background-color: #07c;
+    padding: 2px;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform:translate(-50% , 50%) ;
+    border-radius: 3px;
+    padding: 7px 15px;
+    font-size: 12px;
+    font-weight: 400;
+
+}
+.blog-photo img{
+    width: 100%;
+}
+.blog-footer{
+    border-top: 1px solid gray;
+    padding: .8rem;
+    background-color: #eee;
+}
+.blog-footer img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.blog-footer a{
+    color:#333;
+    text-decoration: none;
+}
+.blog-footer span{
+    margin-left: auto;
+}
+.blog-content{
+    padding: 1rem;
+    margin-top: 1rem;
+}
+.blog-content h2{
+    font-size: 22px;
+    font-weight: 800;
+    
+}
+.contact{
+    background-image: url(images/overlay-bg.jpg);
+    background-size: cover;
+    background-position: center; 
+    margin-top: 3rem ;
+    color: white;
+    background-color: white;
+    position: relative;
+    background-attachment: fixed;
+    height: 100vh;
+    padding: 5rem 0rem;
+}
+.contact-box{
+    background-color: white;
+    
+    z-index: 100;
+    position: relative;
+    padding: 3rem;
+}
+.contact::after {
+    content: "";
+    background-color: rgba(24, 110, 150, 0.678);
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    top:0;
+    left: 0;
+}
+.contact-message::after{
+    content: "";
+    height: 5px;
+    background-color: #09c;
+    width: 15%;
+    position: absolute;
+    bottom: -.5rem;
+    left: 0;
+     
+ }
+ .contact-message{
+    color: black;
+    position: relative;
+ }
+.contact p{
+    margin-top: 3rem;
+    color: black;
+}
+.contact-box li{
+    color: black;
+    margin-bottom: 8px;
+
+}
+.contact-box ul{
+    list-style-type:none;
+    padding-left: 3px;
+    margin-bottom: 2rem;
+}
+.contact-contacts-info{
+    width: 15px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 10px;
+  
+}
+.contact-social-icons
+{
+    color: black;
+    margin-right: 40px;
+    border: 3px solid #09c;
+    border-radius: 50%;
+    padding:10px;
+    transition: all .8s ease-in-out;
+}
+.contact-social-icons:hover{
+    color: white;
+    background-color: #09c;
+    border-color: #24dada;
+    
+}
+.carousel-item::after{
+    content: "";
+    background-color: rgba(33, 147, 167, 0.678);
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    top:0;
+    left: 0;
+}
+.carousel-caption{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+}
+.carousel-caption img{
+    padding: 2rem;
+    border-radius: 50%;
+}
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(52, 138, 196);
+    color: white;
+    padding: 1rem ;
+}
+.copyrights{
+    display: flex;
+    justify-content: center;
+    
+
+}
